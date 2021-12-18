@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Epilogue&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Lora:ital,wght@1,500&display=swap');
+body{
+    display:block;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-image: url("jadu5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+
+}
+.header
+ {
+    height:120px;
+    width:100%; 
+    background-image: url("logo.jpg");
+    background-size: 250px 150px;
+    background-repeat: no-repeat;
+    border-bottom:5px solid #09be40;
+    padding-top: 30px;
+    font-size: 100px;
+    color: rgb(111, 243, 35);
+    
+ 
+
+}
+.btn1{
+    position:absolute;
+    top:10px;
+    right:60px;
+
+}
+button{
+    color:black;
+    
+    height:40px;
+    width:120px;
+
+    background-image: linear-gradient(rgb(106, 226, 37),rgba(224, 224, 26, 0.993));
+    border-radius: 10px;
+
+
+}
+.btn1 :hover{
+    background-image: linear-gradient(rgba(224, 224, 26, 0.993),rgb(106, 226, 37));
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+
+}
+.table
+{
+    width:800px;
+
+}
+table{
+    color: rgb(246, 255, 126);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+
+}
+table tr :hover{
+    
+    background-color: rgb(238, 232, 175);
+    color: purple;
+
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Baloo Bhai 2',cursive;
+    font-size: x-large;
+    color: rgb(14, 239, 255);
+    padding-top: 70px;
+} 
